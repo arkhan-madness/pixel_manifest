@@ -1275,6 +1275,7 @@
   <include name="snippets/yaap.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/clo.xml" />
+  <include name="snippets/pixel.xml" />
 
   <!-- END open-source projects -->
 </manifest>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="arkhan"
+           fetch="https://github.com/arkhan-madness"
+           revision="refs/heads/14" />
+
+
   <!-- Pixel 6/6 Pro/6a/7/7 Pro/7a/Tablet/Fold kernel modules -->
   <project path="kernel/google/gs201/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
   <project path="kernel/google/gs201/private/devices/google/felix" name="kernel/devices/google/felix" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
@@ -38,4 +43,19 @@
   <project path="kernel/google/gs201/private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
   <project path="kernel/google/gs201/private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
 
+  <!-- Pixel 6 Device Tree -->
+  <project path="device/google/raviole" name="device_google_raviole" remote="arkhan" revision="14" />
+  <project path="device/google/gs101" name="device_google_gs101" remote="arkhan" revision="14" />
+
+  <!-- Pixel 6 Device Vendor -->
+  <project path="vendor/google/oriole" name="vendor_google_oriole" remote="arkhan" revision="14" />
+
+  <!-- Pixel 6 Device Kernel Source -->
+  <project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="lineage" revision="lineage-21" />
+
+  <!-- Pixel LOS Hardware -->
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" revision="lineage-21.0" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" revision="lineage-21.0" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" revision="lineage-21.0" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" revision="lineage-21.0" />
 </manifest>

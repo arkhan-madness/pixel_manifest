@@ -132,4 +132,8 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/tools/apksig" />
   <remove-project name="toolchain/pgo-profiles" />
+  <remove-project name="platform/hardware/google/gchips" />
+  <remove-project name="platform/hardware/google/graphics/common" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
 </manifest>
